@@ -1,0 +1,101 @@
+/* Загальні стилі */
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-color: #e0f7fa;
+  }
+  
+  /* Заголовки */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  /* Ідентифікатор для заголовка сайту */
+  #siteHeader {
+    background-color: #004d40;
+    color: white;
+    padding: 15px;
+  }
+  
+  /* Головний заголовок */
+  .main-title {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* Стиль для тіла (BODY) */
+  body {
+    background-color: #e0f7fa;
+  }
+  
+  /* Глобальні стилі для посилань */
+  a {
+    color: #1e88e5;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Стилі для списків */
+  ol, ul, dl {
+    font-size: 16px;
+    color: #000;
+    margin-left: 40px;
+  }
+  
+  /* Стилі для таблиць */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  table, th, td {
+    border: 1px solid #555;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  thead {
+    background-color: #b2ebf2;
+  }
+  
+  /* Галерея */
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .art {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  .art img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  .art img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Плаваючий фрейм */
+  .float-frame {
+    float: right;
+    margin: 20px;
+    border: 2px solid #000;
+  }
+  

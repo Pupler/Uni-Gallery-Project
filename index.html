@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Картинна Галерея - Головна</title>
+  <link rel="stylesheet" href="lab3.css">
+  <style>
+    p.special {
+      font-size: 20px !important;
+      color: #FF4500 !important;
+      text-align: center !important;
+      line-height: 1.5 !important;
+    }
+  </style>
+</head>
+<body>
+  <header id="siteHeader">
+    <h1 class="main-title"><font color="blue">Картинна Галерея</font></h1>
+    <nav>
+      <a href="index.html">Головна</a> |
+      <a href="gallery.html">Галерея</a> |
+      <a href="complex_table.html">Складна Таблиця</a> |
+      <a href="floating_frame.html">Плаваючий Фрейм</a> |
+      <a href="about.html">Про Нас</a>
+    </nav>
+  </header>
+
+  <section id="content">
+    <p>Це перший абзац тексту, який описує нашу галерею. Тут зібрані картини різних стилів та напрямків.</p>
+    <p class="special">Це спеціальний абзац, оформлений внутрішнім стилем з використанням !important.</p>
+    
+    <h2>Переходи між сторінками</h2>
+    <p>
+      <a href="#section1" style="color:#008000;">Перейти до секції 1 на цій сторінці</a><br>
+      <a href="gallery.html#section1" style="color:#00008B;">Перейти до секції 1 іншої сторінки</a><br>
+      <a href="https://www.google.com" target="_blank" style="color:#800080;">Перейти на зовнішню сторінку</a>
+    </p>
+    
+    <h2>Картинки</h2>
+    <p>
+      <a href="images/art1_large.jpg" target="_blank">
+        <img src="images/art1_small.jpg" alt="Картина 1" width="300" height="300">
+      </a>
+    </p>
+    
+    <h2>Списки</h2>
+    <p>Нумерований список:</p>
+    <ol type="1">
+      <li>Масляні картини</li>
+      <li>Акварелі</li>
+      <li>Графіка</li>
+    </ol>
+    <p>Маркірований список:</p>
+    <ul type="circle">
+      <li>Картина A</li>
+      <li>Картина B</li>
+      <li>Картина C</li>
+    </ul>
+    <p>Список визначень:</p>
+    <dl>
+      <dt>Імпресіонізм</dt>
+      <dd>Стиль, що передає миттєві враження.</dd>
+      <dt>Абстракціонізм</dt>
+      <dd>Відхід від традиційних форм.</dd>
+    </dl>
+    
+    <h2>Таблиця 3×4</h2>
+    <table>
+      <caption>Приклад таблиці</caption>
+      <thead>
+        <tr>
+          <th>Зображення</th>
+          <th>Посилання</th>
+          <th>Опис</th>
+          <th>Дата</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td><img src="images/art1_small.jpg" alt="Картина 1" width="100" height="100"></td>
+            <td><a href="images/art1_large.jpg" target="_blank">Переглянути 1</a></td>
+            <td>Опис 1</td>
+            <td>2025</td>
+          </tr>
+          <tr>
+            <td><img src="images/art2_small.jpg" alt="Картина 2" width="100" height="100"></td>
+            <td><a href="images/art2_large.jpg" target="_blank">Переглянути 2</a></td>
+            <td>Опис 2</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td><img src="images/art3_small.jpg" alt="Картина 3" width="100" height="100"></td>
+            <td><a href="images/art3_large.jpg" target="_blank">Переглянути 3</a></td>
+            <td>Опис 3</td>
+            <td>2023</td>
+          </tr>
+      </tbody>
+    </table>
+    
+    <h2>Плаваючий фрейм</h2>
+    <iframe src="https://www.example.com" width="400" height="300" class="float-frame">
+      Ваш браузер не підтримує iframe.
+    </iframe>
+    
+    <p id="section1">Секція 1: Додаткова інформація.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Картинна Галерея</p>
+  </footer>
+</body>
+</html>

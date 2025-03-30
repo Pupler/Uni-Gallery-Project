@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Складна Таблиця</title>
+  <link rel="stylesheet" href="lab3.css">
+  <style>
+    table.complex {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+      border: 2px solid #000;
+    }
+    table.complex th, table.complex td {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: center;
+    }
+    table.complex thead {
+      background-color: #add8e6;
+    }
+  </style>
+</head>
+<body>
+  <header id="siteHeader">
+    <h1 class="main-title"><font color="blue">Складна Таблиця</font></h1>
+    <nav>
+      <a href="index.html">Головна</a> |
+      <a href="gallery.html">Галерея</a> |
+      <a href="complex_table.html">Складна Таблиця</a> |
+      <a href="floating_frame.html">Плаваючий Фрейм</a> |
+      <a href="about.html">Про Нас</a>
+    </nav>
+  </header>
+
+  <section id="content">
+    <table class="complex" cellspacing="5" cellpadding="10">
+      <caption>Детальна інформація по картинах</caption>
+      <colgroup>
+        <col span="2" style="background-color:#e0ffff;">
+        <col style="background-color:#ffe4e1;">
+      </colgroup>
+      <thead>
+        <tr>
+          <th colspan="2">Картини</th>
+          <th>Інформація</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Зображення</td>
+          <td>Мініатюра</td>
+          <td>Короткий опис</td>
+        </tr>
+        <tr>
+          <td colspan="2"><a href="images/art1_large.jpg" target="_blank" style="color:red;">Переглянути повнорозмірну картину</a></td>
+        </tr>
+        <tr>
+          <td style="text-align:left;">Назва: "Світанок"</td>
+          <td style="text-align:center;">Автор: Іваненко</td>
+          <td style="text-align:right;">Рік: 2022</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Картинна Галерея</p>
+  </footer>
+</body>
+</html>

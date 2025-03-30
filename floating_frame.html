@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Плаваючий Фрейм</title>
+  <link rel="stylesheet" href="lab3.css">
+  <style>
+    .float-frame {
+      float: right;
+      margin: 20px;
+      border: 2px solid #000;
+    }
+  </style>
+</head>
+<body>
+  <header id="siteHeader">
+    <h1 class="main-title"><font color="blue">Плаваючий Фрейм</font></h1>
+    <nav>
+      <a href="index.html">Головна</a> |
+      <a href="gallery.html">Галерея</a> |
+      <a href="complex_table.html">Складна Таблиця</a> |
+      <a href="floating_frame.html">Плаваючий Фрейм</a> |
+      <a href="about.html">Про Нас</a>
+    </nav>
+  </header>
+
+  <section id="content">
+    <p>Нижче знаходиться плаваючий фрейм із зовнішнім ресурсом:</p>
+    <iframe src="https://www.example.com" width="400" height="300" class="float-frame">
+      Ваш браузер не підтримує iframe.
+    </iframe>
+    <p>Після фрейму додатковий текст. Поверніться на <a href="index.html" style="color:blue;">головну</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Картинна Галерея</p>
+  </footer>
+</body>
+</html>
