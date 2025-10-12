@@ -1,49 +1,131 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>Галерея</title>
-  <link rel="stylesheet" href="lab3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-Gallery | Галерея</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header id="siteHeader">
-    <h1 class="main-title"><font color="blue">Галерея</font></h1>
-    <nav>
-      <a href="index.html">Головна</a> |
-      <a href="gallery.html">Галерея</a> |
-      <a href="complex_table.html">Складна Таблиця</a> |
-      <a href="floating_frame.html">Плаваючий Фрейм</a> |
-      <a href="about.html">Про Нас</a>
-    </nav>
-  </header>
+    <header>
+        <div class="container">
+            <h1>Uni-Gallery</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="gallery.html" class="active">Галерея</a></li>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <section id="content">
-    <h2><font color="brown">Наші Картини</font></h2>
-    <p id="section1"><font face="Arial" size="4" color="black"><i>Натискайте на картину для перегляду у повному розмірі.</i></font></p>
-    <div class="gallery">
-      <div class="art">
-        <a href="images/art1_large.jpg" target="_blank">
-          <img src="images/art1_small.jpg" alt="Картина 1" width="300" height="300">
-        </a>
-        <p><font face="Georgia" size="4" color="black">Картина 1</font></p>
-      </div>
-      <div class="art">
-        <a href="images/art2_large.jpg" target="_blank">
-          <img src="images/art2_small.jpg" alt="Картина 2" width="300" height="300">
-        </a>
-        <p><font face="Georgia" size="4" color="black">Картина 2</font></p>
-      </div>
-      <div class="art">
-        <a href="images/art3_large.jpg" target="_blank">
-          <img src="images/art3_small.jpg" alt="Картина 3" width="300" height="300">
-        </a>
-        <p><font face="Georgia" size="4" color="black">Картина 3</font></p>
-      </div>
-    </div>
-  </section>
+    <main>
+        <section class="gallery-intro">
+            <div class="container">
+                <h2>Галерея робіт</h2>
+                <p>Ознайомтеся з творчими роботами наших студентів</p>
+            </div>
+        </section>
 
-  <footer>
-    <p>&copy; 2025 Картинна Галерея</p>
-  </footer>
+        <section class="gallery-filter">
+            <div class="container">
+                <button class="filter-btn active" data-filter="all">Всі роботи</button>
+                <button class="filter-btn" data-filter="painting">Живопис</button>
+                <button class="filter-btn" data-filter="graphic">Графіка</button>
+                <button class="filter-btn" data-filter="digital">Цифрове мистецтво</button>
+                <button class="filter-btn" data-filter="photo">Фотографія</button>
+            </div>
+        </section>
+
+        <section class="gallery-grid">
+            <div class="container">
+                <div class="gallery-items">
+                    <div class="gallery-item" data-category="painting">
+                        <img src="images/painting1.jpg" alt="Весняний пейзаж">
+                        <div class="item-info">
+                            <h3>Весняний пейзаж</h3>
+                            <p>Автор: Анна Коваленко</p>
+                            <p>Факультет: Мистецтв</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="graphic">
+                        <img src="images/graphic1.jpg" alt="Абстрактна композиція">
+                        <div class="item-info">
+                            <h3>Абстрактна композиція</h3>
+                            <p>Автор: Олексій Петренко</p>
+                            <p>Факультет: Дизайну</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="digital">
+                        <img src="images/digital1.jpg" alt="Кіберпростір">
+                        <div class="item-info">
+                            <h3>Кіберпростір</h3>
+                            <p>Автор: Марія Сидоренко</p>
+                            <p>Факультет: Комп'ютерних наук</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="photo">
+                        <img src="images/photo1.jpg" alt="Міський пейзаж">
+                        <div class="item-info">
+                            <h3>Міський пейзаж</h3>
+                            <p>Автор: Дмитро Іваненко</p>
+                            <p>Факультет: Журналістики</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="painting">
+                        <img src="images/painting2.jpg" alt="Портрет">
+                        <div class="item-info">
+                            <h3>Портрет</h3>
+                            <p>Автор: Софія Лисенко</p>
+                            <p>Факультет: Мистецтв</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="digital">
+                        <img src="images/digital2.jpg" alt="Фантастичний світ">
+                        <div class="item-info">
+                            <h3>Фантастичний світ</h3>
+                            <p>Автор: Андрій Шевченко</p>
+                            <p>Факультет: Комп'ютерних наук</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Uni-Gallery Project. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Фільтрація галереї
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Видаляємо активний клас з усіх кнопок
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Додаємо активний клас до поточної кнопки
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 </html>

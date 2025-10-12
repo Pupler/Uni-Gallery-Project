@@ -1,36 +1,83 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>Про Нас</title>
-  <link rel="stylesheet" href="lab3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-Gallery | Про нас</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header id="siteHeader">
-    <h1 class="main-title"><font color="blue">Про Нас</font></h1>
-    <nav>
-      <a href="index.html">Головна</a> |
-      <a href="gallery.html">Галерея</a> |
-      <a href="complex_table.html">Складна Таблиця</a> |
-      <a href="floating_frame.html">Плаваючий Фрейм</a> |
-      <a href="about.html">Про Нас</a>
-    </nav>
-  </header>
+    <header>
+        <div class="container">
+            <h1>Uni-Gallery</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="about.html" class="active">Про нас</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <section id="content">
-    <h2><font color="brown">Наша Місія</font></h2>
-    <p><font face="Arial" size="4" color="purple"><b>Ми прагнемо популяризувати мистецтво та підтримувати нових художників.</b></font></p>
-    <p><font face="Arial" size="4" color="black"><i>Наша галерея – це місце, де кожен може знайти щось для душі.</i></font></p>
-    <h3>Наші Цілі:</h3>
-    <ul type="square">
-      <li>Поширення сучасного мистецтва.</li>
-      <li>Залучення талановитих художників.</li>
-      <li>Надання можливості придбати унікальні твори.</li>
-    </ul>
-  </section>
+    <main>
+        <section class="about-intro">
+            <div class="container">
+                <h2>Про Uni-Gallery</h2>
+                <p>Наша місія - надати платформу для демонстрації творчих досягнень студентів університету</p>
+            </div>
+        </section>
 
-  <footer>
-    <p>&copy; 2025 Картинна Галерея</p>
-  </footer>
+        <section class="about-content">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>Наша історія</h3>
+                        <p>Uni-Gallery була заснована у 2020 році як ініціатива студентів факультету мистецтв. Спочатку це була фізична галерея в головному корпусі університету, де студенти могли виставляти свої роботи.</p>
+                        <p>У 2023 році ми розширили наш проєкт, створивши віртуальну платформу, що дозволяє демонструвати творчість студентів онлайн. Це дало змогу охопити ширшу аудиторію та залучити студентів з різних факультетів.</p>
+                        
+                        <h3>Наша мета</h3>
+                        <p>Ми прагнемо:</p>
+                        <ul>
+                            <li>Створити інклюзивний простір для творчого самовираження</li>
+                            <li>Сприяти міждисциплінарній співпраці між студентами</li>
+                            <li>Розвивати критичне мислення через обговорення мистецтва</li>
+                            <li>Надати можливість молодим митцям отримати визнання</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <h2>Наша команда</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <h3>Олена Коваль</h3>
+                        <p>Керівник проєкту</p>
+                        <p>Професор кафедри мистецтв</p>
+                    </div>
+                    <div class="team-member">
+                        <h3>Максим Петренко</h3>
+                        <p>Технічний координатор</p>
+                        <p>Студент факультету комп'ютерних наук</p>
+                    </div>
+                    <div class="team-member">
+                        <h3>Анна Сидоренко</h3>
+                        <p>Куратор виставок</p>
+                        <p>Студентка факультету дизайну</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Uni-Gallery Project. Всі права захищені.</p>
+        </div>
+    </footer>
 </body>
 </html>
