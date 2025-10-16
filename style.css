@@ -111,11 +111,11 @@ h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
     text-align: center;
-    color: white;
+    color: #5B5B66;
 }
 
-.features-text {
-    color: #15141A;
+.welcome-text {
+    color: white;
 }
 
 h3 {
