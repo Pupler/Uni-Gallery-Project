@@ -3,7 +3,7 @@
 Uni-Gallery is a simple and clean web gallery site designed to showcase images and structured content.  
 It demonstrates the use of **external CSS** for styling text, lists, tables, and floating frames.
 
-## 🚀 Features
+## ⚙️ Features
 
 - Responsive and modern **gallery page**  
 - About page with project description  
@@ -24,7 +24,7 @@ It demonstrates the use of **external CSS** for styling text, lists, tables, and
 | `style.css` | External CSS styles |
 | `images/` | Folder containing gallery images |
 
-## ⚙️ Installation
+## 🚀 Installation
 
 1. Download or clone the repository.  
 2. Open `index.html` in your browser to start exploring.  
