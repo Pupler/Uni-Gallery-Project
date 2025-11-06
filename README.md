@@ -3,15 +3,6 @@
 Uni-Gallery is a simple and clean web gallery site designed to showcase images and structured content.  
 It demonstrates the use of **external CSS** for styling text, lists, tables, and floating frames.
 
-## ⚙️ Features
-
-- Responsive and modern **gallery page**  
-- About page with project description  
-- Complex tables for structured content  
-- Floating frame examples for layout styling  
-- Fully styled using **external CSS**  
-- Clean design and easy navigation  
-
 ## 📂 Project Structure
 
 | File | Description |
@@ -24,12 +15,25 @@ It demonstrates the use of **external CSS** for styling text, lists, tables, and
 | `style.css` | External CSS styles |
 | `images/` | Folder containing gallery images |
 
-## 🚀 Installation
+## ✨ Features
 
-1. Download or clone the repository.  
-2. Open `index.html` in your browser to start exploring.  
-3. No server or database required – fully static site.  
+- Responsive and modern **gallery page**  
+- About page with project description  
+- Complex tables for structured content  
+- Floating frame examples for layout styling  
+- Fully styled using **external CSS**  
+- Clean design and easy navigation  
 
-## 📝 Notes
+## 🚀 Getting Started
 
-Uni-Gallery is a **static web project** intended for demonstration and educational purposes. It can serve as a template for personal projects or learning HTML/CSS layout techniques.
+```bash
+# Clone the repository
+git clone https://github.com/Pupler/Uni-Gallery-Project.git
+
+# Open `index.html` in your browser to start exploring
+# No server or database required – fully static site
+```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
